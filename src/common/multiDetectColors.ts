@@ -532,7 +532,9 @@ const multiDetectColors: IMultiDetectColorsOrigin = {
 				[left, 117, 26, 0xf7efb5],
 				[right, 1164, 25, 0xd6b289],
 				[right, 1223, 23, 0xd6ad86],
-				[center, 508, 35, 0x731c10],
+				// 使用右侧地图页签，避免顶部资源栏改版导致识别失效。
+				[right, 1060, 160, 0x554630],
+				[right, 1199, 184, 0x826e55],
 			]
 		]
 	},
